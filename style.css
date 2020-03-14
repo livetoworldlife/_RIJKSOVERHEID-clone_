@@ -530,6 +530,10 @@ footer .languages li:first-child
 }
 
 @media screen and (max-width:480px){
+    .searchNav input
+    {
+    font-size: 0.5em;
+    }
     /* section SpotLight and News 1 COLS*/
     section .spotLight-container,
     section .news-container
