@@ -1,0 +1,556 @@
+* {
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: "RO Sans",Calibri,sans-serif;
+    font-weight: normal;
+    line-height: 1.625;
+    background-color: #ffffff; 
+}
+
+body, h1, h2, h3, h4, h5, p, ul, li,
+div, a, img 
+{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* HEADER LOGO*/
+header .logo 
+{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header
+{
+    position: relative;
+    display: block;
+}
+
+.wrapper #logos
+{/* second logo none */
+    display: none;
+}
+.logo .wrapper {
+    margin: 0 0 0 50%;
+}
+.logo .wrapper img {
+    display: inline-block;
+}
+
+/* NAVBAR */
+#navBar {
+    background-color: #01689b;
+    min-height: 70px;
+    font-size: 1.2em;
+}
+/* nav2 icon first none */
+.searchNav,
+#navBar .icon {
+    display: none;
+}
+
+.nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2% 5%;
+    max-width: 1200px;/*max*/
+    margin: 0 auto;
+}
+.mainNav{
+    flex: 1 1 50%;
+}
+.mainNav .topMenu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0;
+    
+}
+.mainNav .topMenu li{
+    margin: 0 1%;
+}
+
+/* MAIN */
+main {
+    position: relative;
+    background-color: white;
+    display: block;
+    padding-bottom: 30px;
+}
+/* main header a, */
+main a:link{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    border: 2px rgba(255, 255, 255, 0)dotted;
+    margin: 2% 1%;
+}
+
+main a h3{
+    color: #01689b;
+}
+main a:hover h3{
+    text-decoration: underline;
+    color: #053e5b;
+}
+
+div a:focus,
+li a:focus{
+    display: block;
+    border: 2px #053e5b dotted;
+}
+
+/* main header */
+main #headerBack
+{
+    background:url("img/bicycle-parking-hero.jpg") no-repeat center center / cover;
+    height:300px;
+}
+main header {
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    max-width: 1200px;/*max*/
+    margin: 0 auto;
+}
+
+/* main navigator */
+main header .topTaskNavigation{
+    background-color: rgb(255, 255, 255);
+    font-size: 80%;
+    margin: 2% 2%;
+    padding: 2% 2%;
+}
+
+main header .topTaskNavigation h3::before{
+    content: ' \276F  ';
+}
+
+/* main searc form */
+.searchNav{
+    width: 100%;
+}
+main header .searchForm
+{
+    width: 40%;
+    margin: 4% 0%;
+}
+.searchNav form,
+main header .searchForm form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 5px;
+    height: 25%;
+    max-height: 60px;
+    width: 100%;
+}
+.searchNav form
+{
+    height: 45px;
+    padding: 0;
+}
+
+.searchNav input,
+main header .searchForm input
+{
+    flex-shrink: 1;
+    flex-grow: 4;
+    flex-basis: 80%;
+    font-size: 1.1em;
+    outline: none;
+}
+
+.searchNav input:focus,
+main header .searchForm input:focus
+{
+    border: 2px #01689b dotted;
+}
+
+.searchNav button,
+main header .searchForm button
+{
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 10%;
+    padding: 0 3%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    border: 0;
+}
+
+.searchNav button:active,
+main header .searchForm button:active
+{
+    outline: none;
+    border: 2px #ffffff dotted;
+}
+
+/* section grey*/
+#section-grey
+{
+    background-color: #f3f3f3;
+    margin-bottom: 5%;
+}
+
+main .fourItems
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 1200px;/*max*/
+    margin: 0 auto;
+}
+
+main .navItem
+{
+    flex: 1 1 21%;
+    margin: 2% 1%;
+}
+
+/* section SpotLight */
+section .spotLight-container,
+section .news-container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 1200px;/*max*/
+    margin: 0 auto;
+}
+
+section .spotLight-container img
+{
+    height: 300px;
+    width: 100%;
+}
+
+/* section News */
+section .brick
+{
+    flex: 1 1 30%;
+    margin: 2% 1% 2% 0;
+}
+article,
+.wrap
+{
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* banner */
+article a
+{
+    border: 3px rgb(170, 166, 166) solid !important;
+    width: 30%;
+    padding: 30px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #01689b;
+}
+
+article a p
+{
+    text-align: center;
+    color: #000000;
+}
+article a h1
+{
+    text-align: center;
+}
+
+/* FOOTER */
+#firstFooter
+{
+    background-color: #01689b;
+    color: #fff;
+}
+footer .container
+{
+    display: flex;
+    justify-content: flex-end;
+    padding: 4% 8%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .container .column
+{
+    margin: 4% 8%;
+}
+
+nav a,
+footer a
+{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px rgba(255, 255, 255, 0)dotted;
+}
+
+nav a:hover,
+footer .container a:hover
+{
+    text-decoration: underline;
+}
+
+nav a:focus,
+footer .container a:focus
+{
+    display: block;
+    border: 2px #ffffff dotted;
+}
+
+/* languages */
+footer .languages
+{
+    height: 80px;
+    background-color: #ffffff;
+    padding: 30px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .languages a
+{
+    color: #01689b;
+}
+
+footer .languages ul
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+footer .languages a
+{
+    display: block;
+    margin: 10px 10px;
+    padding: 4px 6px;
+    border: 0.1px #01689b solid;
+}
+
+footer .languages li:first-child
+{
+    margin: 10px 10px;
+    padding: 4px 6px;
+    border: 0;
+}
+
+@media screen and (min-width: 992px) and (max-width:1199px)
+{   /* section grey 3 COLS*/
+    main .navItem
+    {
+        flex: 1 1 31.3%;
+        margin: 2% 1%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:991px)
+{ 
+    /* main navigator */
+    main header .topTaskNavigation
+    {
+        width: 40%;
+        font-size: 80%;
+        margin: 2% 2%;
+        padding: 2% 2%;
+    }
+    /* section grey 2 COLS*/
+    main .navItem
+    {
+        flex: 1 1 48%;
+        margin: 1% 1%;
+    }
+    /* section SpotLight and News 2 COLS*/
+    section .brick
+    {
+        flex: 1 1 48%;
+        margin: 2% 1% 2% 0;
+    }
+    .spotLight-container .brick:last-child
+    {
+        margin-right: 51%;
+    }
+    /* article question  */
+    article a
+    {
+        width: 48%;
+        padding: 30px 20px 50px;
+    }
+    /* footer service about  */
+    footer #firstFooter .container .column
+    {
+        margin: 2% 6%;
+    }
+}
+
+@media screen and (max-width:767px){
+    /* logo */
+    .wrapper #logotext
+    {/* first logo none */
+        display: none;
+    }
+    .logo .wrapper {
+        margin: 0 0 0 48%;
+    }
+    .logo .wrapper #logos{
+        display: block;
+    }
+    /* section grey 1 COLS*/
+    main .navItem
+    {
+        flex: 1 1 98%;
+        margin: 0% 2%;
+    }
+    /* section SpotLight and News 2 COLS*/
+    section .brick
+    {
+        flex: 1 1 48%;
+        margin: 2% 1% 2% 0;
+    }
+    section .spotLight-container img
+    {
+        height: 200px;
+        width: 100%;
+    }
+    .spotLight-container .brick:last-child
+    {
+        margin-right: 51%;
+    }
+    /* article question  */
+    article a
+    {
+        width: 48%;
+        padding: 30px 20px 50px;   
+    }
+    /* footer services */
+    footer .container
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 0;
+        padding: 2% 2%;
+    }
+    footer .container .column
+    {
+        flex: 1 1 48%;
+        margin: 2% 2%;
+    }
+
+    /* menu and searc */
+    main header .topTaskNavigation
+    {
+        width: 92%;
+        margin: 4% 4%;
+        padding: 1% 2%;
+    }
+
+    /* .nav-container, */
+    .searchForm
+    {
+        display: none;
+    }
+    .searchNav
+    {
+        display: flex;
+    }
+    .topMenu a
+    {
+        text-align: left;
+    }
+    .topMenu li{display: none;} 
+    #navBar .icon
+    {
+        display: block;
+    }
+    .nav-container .home
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .topMenu.responsive li
+    {
+        display:block;
+        border-bottom: 2px #ffffff solid;        
+    }
+    .nav-container, 
+    .topMenu.responsive 
+    {
+        display:flex;
+        flex-direction: column;
+        width:100%;
+    }
+    /* x ICON */
+    .topMenu .container 
+    {
+        display: inline-block;
+        cursor: pointer;
+    }
+    .bar1, .bar2, .bar3
+    {
+        width: 35px;
+        height: 4px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+    .change .bar1 
+    {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+    .change .bar2 {opacity: 0;}
+    .change .bar3 
+    {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+}
+
+@media screen and (max-width:480px){
+    /* section SpotLight and News 1 COLS*/
+    section .spotLight-container,
+    section .news-container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    section .brick
+    {
+        flex: 1 1 96;
+        margin: 2% 1%;
+    }
+    .spotLight-container .brick:last-child
+    {
+        margin-right: 1%;
+    }
+     /* article question  */
+     article a
+    {
+        width: 98%;
+        padding: 30px 20px 50px;   
+    }
+    
+}

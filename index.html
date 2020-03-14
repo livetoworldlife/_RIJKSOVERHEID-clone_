@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information from the Government of The Netherlands</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- HEADER LOGO -->
+    <header>
+      <div class="logo">
+        <div class="wrapper">
+          <img src="img/logo-ro-eng.svg" alt="" id="logotext"/>
+          <img src="img/fallback-beeldmerk.svg" alt="" id="logos"/>
+        </div>
+      </div>  
+    </header>
+    <!-- NAVBAR FIRST-->
+    <div id="navBar">
+      <div class="nav-container">
+        <nav class="home">
+          <a href="#">Home</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <div class="container" onclick="myFunction2(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+          </a>
+        </nav>
+        <!--display searc bar for small screen -->
+        <nav class="searchNav">
+            <form action="#">
+              <input type="text" id="search-keyword" name="keyword" title="Enter search terms here" placeholder="Search" />
+                <button name="search-submit" type="submit" title="Start searching">
+                  <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </nav>
+        <nav class="mainNav">
+          <ul class="topMenu" id="myTopnav">
+            <li><a href="#">Latest</a></li>
+            <li><a href="#">Topics</a></li>
+            <li><a href="#">Ministries</a></li>
+            <li><a href="#">Government</a></li>
+            <li><a href="#">Documents</a></li>
+
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- MAIN -->
+    <main>
+      <!-- main header -->
+      <div id="headerBack">
+        <header>
+          <!---SearchBar Main--->
+          <div class="searchForm">
+            <form action="#">
+              <input type="text" id="search-keyword" name="keyword" title="Enter search terms here" placeholder="Search" />
+                <button name="search-submit" type="submit" title="Start searching">
+                  <i class="fas fa-search"></i>
+                </button>
+            </form>
+          </div>
+          <!---header navigator--->
+          <div class="topTaskNavigation">
+            <ul>
+              <li><a href="#"><h3>Coronavirus COVID-19</h3></a></li>
+              <li><a href="#"><h3>School holidays</h3></a></li>
+              <li><a href="#"><h3>Consent letter for minors travelling abroad</h3></a></li>
+              <li><a href="#"><h3>Brexit: what will happen in 2020</h3></a></li>
+              <li><a href="#"><h3>Becoming a Dutch national</h3></a></li>
+            </ul>
+          </div>
+        </header>
+      </div>
+      <!-- main grey section -->
+      <section id="section-grey">
+        <ul class="fourItems">
+          <li class="navItem">
+            <a href="#">
+              <h3>Building and housing</h3>
+              <p>Housing, Infrastructure ...</p>
+            </a>
+          </li>
+          <li class="navItem">
+            <a href="#">
+              <h3>Economy</h3>
+              <p>Enterprise and innovation, Public-Private Partnership (PPP) in central government, Brexit ...</p>
+            </a>
+          </li>
+          <li class="navItem">
+            <a href="#">
+              <h3>Education</h3>
+              <p>School holidays, Gender equality, Freedom of education ...</p>
+            </a>
+          </li>
+          <li class="navItem">
+            <a href="#">
+              <h3>Family, health and care</h3>
+              <p>Drugs, Health insurance, Abortion, Mental health care, Family law ...</p>
+            </a>
+          </li>
+          <li class="navItem">
+            <a href="#">
+              <h3>Government and democracy</h3>
+              <p>Public administration, Personal data, Forming a new government, Police ...</p>
+            </a>
+          </li>
+          <li class="navItem">
+            <a href="#">
+              <h3>International cooperation</h3>
+              <p>European Union, Human rights, Treaties ...</p>
+            </a>
+          </li>
+          <li class="navItem">
+            <a href="#">
+              <h3>Justice, security and defence</h3>
+              <p>Identification documents, Emergency number 112, Counterterrorism and national security, Cybercrime ...</p>
+            </a>
+          </li>
+          <li class="navItem">
+            <a href="#">
+              <h3>Migration and travel</h3>
+              <p>Visas, Dutch nationality, New in the Netherlands, Immigration, Embassies, consulates and other representations ...</p>
+            </a>
+          </li>
+          <li class="navItem">
+            <a href="#">
+              <h3>Nature and the environment</h3>
+              <p>Agriculture, Climate change, Environment, Water management ...</p>
+            </a>
+          </li>
+          <li class="navItem">
+            <a href="#">
+              <h3>Taxes, benefits and allowances</h3>
+              <p>Taxation and businesses, Social policy, Grant programmes ...</p>
+            </a>
+          </li>
+          <li class="navItem">
+            <a href="#">
+              <h3>Transport</h3>
+              <p>Mobility, public transport and road safety, Eco-friendly fuels for transport, Drones ...</p>
+            </a>
+          </li>
+          <li class="navItem">
+            <a href="/#">
+              <h3>Work</h3>
+              <p>Minimum wage, Legalising documents, Health and safety at the workplace ...</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+          
+      <div id="wrapSpotNew">
+        <hr> 
+        <!-- Spotlight -->
+        <section>
+          <div class="wrap">
+            <h2>Spotlight</h2>
+          </div>
+          
+          <div class="spotLight-container">
+          <!-- First -->
+          <div class="brick">
+            <a href="#" class="">
+              <img src="img/treveszaal.jpg" alt=""/>
+              <h3>Government’s plans for 2020</h3>
+              <p>Overview of the plans for 2020 presented by the third Rutte government.</p>
+            </a>
+          </div>
+          <!-- Second -->
+          <div class="brick">
+            <a href="#" class="">
+              <img src="img/brexit.jpg" alt="" />
+              <h3>Brexit</h3>
+              <p>Read more&nbsp;about the key dates in the Brexit negotiations between the UK and the EU.&nbsp;</p>
+            </a>
+          </div>
+            <!-- Third -->
+          <div class="brick">
+            <a href="#" class="">
+              <img src="img/wpfd.jpg" alt="" />
+              <h3>World Press Freedom Conference 2020</h3>
+              <p>In 2020 the annual World Press Freedom Conference (WPFC) will take place on April 22, 23 and 24 at the World Forum in The Hague.</p>
+            </a>
+          </div>
+          </div> <!--class="spotLight-container"-->
+        </section>
+        <hr> 
+        <!-- section news -->
+        <section>
+          <div class="wrap">
+            <h2>News</h2>
+          </div>
+        <div class="news-container">
+          <div class="brick">
+              <a href="#">
+                <h3>One deceased patient, 121 new patients, in total 503 positive tested persons</h3>
+                <span>11-03-2020 | 15:49</span>
+                <p>At this moment, there are 121 new confirmed COVID-19 patients which brings the total number of positive tests to 503. The number ...</p>
+              </a>
+            </div>
+
+          <div class="brick">
+            <a href="#">
+              <h3>Results random sample tests: 4% of hospital staff infected with novel coronavirus</h3>
+              <span>10-03-2020 | 18:13</span>
+              <p>Nearly four per cent of the hospital staff tested in hospitals in Brabant are infected with the novel coronavirus. However, there ...</p>
+            </a>
+          </div>
+
+          <div class="brick">
+            <a href="#">
+              <h3>Dutch companies do good business during trade mission to Indonesia</h3>
+              <span>10-03-2020 | 15:02</span>
+              <p>The state visit to Indonesia is beneficial for Dutch businesses. In fact, it will generate an estimated 1.2 billion euros in ...</p>
+            </a>
+          </div>
+
+          <div class="brick">
+            <a href="#">
+              <h3>One patient deceased, 61 new patients, a total of 382 people tested positive</h3>
+              <span>10-03-2020 | 14:50</span>
+              <p>Since yesterday, 61 new COVID-19 patients have been reported to RIVM. This brings the total number of positive tests to 382.</p>
+            </a>
+          </div>
+
+          <div class="brick">
+            <a href="#">
+              <h3>56 new patients, a total of 321 positive tests</h3>
+              <span>09-03-2020 | 14:07</span>
+              <p>Since the last update, RIVM National Institute for Public Health and the Environment   received reports of 56 new patients. The ...</p>
+            </a>
+          </div>
+
+          <div class="brick">
+            <a href="#">
+              <h3>Two patients deceased, 77 new patients, a total of 265 positive tested patients</h3>
+              <span>08-03-2020 | 16:13</span>
+              <p>Two patients with the novel coronavirus have died today. Both had serious underlying medical problems. It concerns an 86-year-old ...</p>
+              </a>
+          </div>
+        </div><!--class="news-container"-->
+        <div class="wrap">
+          <a href="#"><h3>More news</h3></a>
+        </div>
+        
+        </section>
+      </div>
+      <!-- article banner question -->
+      <article>
+        <a href="#">
+          <h1>Questions?</h1>
+          <p>Contact the Public Information Service</p>
+        </a>
+      </article>
+    </main>
+    <!-- FOOTER -->
+    <footer id="firstFooter">
+      <div class="container">
+        <div class="column">
+        <h2>Service</h2>
+        <ul>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">RSS</a></li>
+          <li><a href="#">Sitemap</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Archive</a></li>
+        </ul>
+        </div>
+        <div class="column">
+        <h2>About this site</h2>
+        <ul>
+          <li><a href="#">Copyright</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li><a href="#">Accessibility</a></li>
+          <li><a href="#">Reporting a vulnerability</a></li>
+        </ul>
+        </div>
+      </div>
+    </footer>
+    <footer>
+      <div class="languages">
+          <ul>
+            <li>English</li>
+            <li><a href="#">Nederlands</a></li>
+            <li><a href="#">Papiamento</a></li>
+            <li><a href="#">Papiamentu</a></li>
+          </ul>
+      </div>
+    </footer>
+    <!-- nav2 script -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topMenu") {
+          x.className += " responsive";
+        } else {
+          x.className = "topMenu";
+        }
+      }
+
+      function myFunction2(x) {
+        x.classList.toggle("change");
+      }
+      </script>
+  </body>
+</html>
